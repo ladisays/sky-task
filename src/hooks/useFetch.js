@@ -1,17 +1,14 @@
 import { useCallback, useEffect, useState } from "react";
 
-const setHeaders = () =>
-  new Headers({
-    Authorization: `Bearer ${process.env.REACT_APP_DB_ACCESS_TOKEN}`,
-  });
-
 const useFetch = (url, lazy = false) => {
   const [data, setData] = useState(null);
   const run = useCallback(
     async (overrideURL = url) => {
       try {
         const res = await fetch(overrideURL, {
-          headers: setHeaders(),
+          headers: {
+            Authorization: `Bearer ${process.env.REACT_APP_DB_ACCESS_TOKEN}`,
+          },
         });
         const json = await res.json();
         setData(json);
