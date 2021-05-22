@@ -1,0 +1,52 @@
+.root {
+  display: flex;
+  position: relative;
+}
+.root button,
+.root select {
+  margin-left: 12px;
+}
+.root select {
+  border: 1px solid lightgrey;
+}
+.root button {
+  padding: 10px 12px;
+  text-align: center;
+  border: 1px solid transparent;
+  background-color: #00B570;
+  color: #FFF;
+  font-size: 16px;
+}
+.control {
+  flex: 1;
+}
+.control label {
+  display: none;
+}
+.control input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid lightgrey;
+  font-size: 16px;
+}
+.suggestions {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: #EEE;
+  margin-top: 12px;
+  padding: 12px;
+  max-height: 60vh;
+  overflow-y: auto;
+}
+.suggestions li {
+  padding-bottom: 12px;
+  border-bottom: 1px solid lightgrey;
+}
+
+/* @media only screen and (min-width: 992px) {
+  .suggestions {
+    right: 0;
+  }
+} */

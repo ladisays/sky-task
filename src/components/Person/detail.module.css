@@ -1,0 +1,32 @@
+.root {
+  margin-top: 15px;
+}
+.profile p {
+  display: flex;
+  flex-direction: column;
+}
+.profile li {
+  margin-bottom: 15px;
+}
+.info h1,
+.aka {
+  display: none;
+}
+.profile h1 {
+  text-align: center;
+}
+@media only screen and (min-width: 992px) {
+  .root {
+    display: flex;
+  }
+  .info {
+    margin-left: 30px;
+  }
+  .profile h1 {
+    display: none;
+  }
+  .info h1,
+  .aka {
+    display: block;
+  }
+}

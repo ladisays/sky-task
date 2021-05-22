@@ -1,0 +1,25 @@
+.root {
+  margin: 12px 0;
+}
+.root a {
+  display: flex;
+  text-decoration: none;
+  color: #333;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  margin-left: 15px;
+}
+.title span {
+  display: inline-block;
+  margin-left: 5px;
+}
+.text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: calc(100% - 100px);
+}
