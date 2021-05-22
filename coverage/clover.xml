@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1621716082932" clover="3.2.0">
+  <project timestamp="1621716082932" name="All files">
+    <metrics statements="121" coveredstatements="113" conditionals="42" coveredconditionals="38" methods="41" coveredmethods="39" elements="204" coveredelements="190" complexity="0" loc="121" ncloc="121" packages="10" files="18" classes="18"/>
+    <package name="src">
+      <metrics statements="31" coveredstatements="23" conditionals="9" coveredconditionals="5" methods="8" coveredmethods="6"/>
+      <file name="App.js" path="/Users/ladiadenusi/source/sky/challenge/src/App.js">
+        <metrics statements="17" coveredstatements="17" conditionals="5" coveredconditionals="5" methods="6" coveredmethods="6"/>
+        <line num="15" count="21" type="stmt"/>
+        <line num="16" count="21" type="stmt"/>
+        <line num="17" count="21" type="stmt"/>
+        <line num="18" count="21" type="stmt"/>
+        <line num="19" count="21" type="stmt"/>
+        <line num="20" count="12" type="stmt"/>
+        <line num="22" count="21" type="stmt"/>
+        <line num="23" count="19" type="stmt"/>
+        <line num="24" count="19" type="cond" truecount="2" falsecount="0"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="27" count="18" type="stmt"/>
+        <line num="30" count="21" type="stmt"/>
+        <line num="31" count="4" type="stmt"/>
+        <line num="32" count="2" type="stmt"/>
+        <line num="34" count="4" type="stmt"/>
+        <line num="35" count="4" type="stmt"/>
+        <line num="39" count="21" type="stmt"/>
+      </file>
+      <file name="constants.js" path="/Users/ladiadenusi/source/sky/challenge/src/constants.js">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="2" count="6" type="stmt"/>
+        <line num="3" count="6" type="stmt"/>
+        <line num="4" count="6" type="stmt"/>
+        <line num="5" count="6" type="stmt"/>
+        <line num="6" count="6" type="stmt"/>
+      </file>
+      <file name="reportWebVitals.js" path="/Users/ladiadenusi/source/sky/challenge/src/reportWebVitals.js">
+        <metrics statements="8" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.Image">
+      <metrics statements="3" coveredstatements="3" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+      <file name="index.js" path="/Users/ladiadenusi/source/sky/challenge/src/components/Image/index.js">
+        <metrics statements="3" coveredstatements="3" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="4" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="5" count="50" type="cond" truecount="2" falsecount="0"/>
+        <line num="9" count="50" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.List">
+      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+      <file name="Item.js" path="/Users/ladiadenusi/source/sky/challenge/src/components/List/Item.js">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="5" count="6" type="stmt"/>
+        <line num="6" count="44" type="stmt"/>
+        <line num="8" count="44" type="stmt"/>
+        <line num="10" count="6" type="stmt"/>
+        <line num="11" count="44" type="stmt"/>
+        <line num="18" count="6" type="stmt"/>
+        <line num="19" count="6" type="stmt"/>
+      </file>
+      <file name="index.js" path="/Users/ladiadenusi/source/sky/challenge/src/components/List/index.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="12" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.Media">
+      <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <file name="Item.js" path="/Users/ladiadenusi/source/sky/challenge/src/components/Media/Item.js">
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="14" count="39" type="cond" truecount="2" falsecount="0"/>
+        <line num="16" count="39" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.Movie">
+      <metrics statements="7" coveredstatements="7" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+      <file name="Detail.js" path="/Users/ladiadenusi/source/sky/challenge/src/components/Movie/Detail.js">
+        <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="46" count="3" type="stmt"/>
+      </file>
+      <file name="Item.js" path="/Users/ladiadenusi/source/sky/challenge/src/components/Movie/Item.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="5" count="13" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.Person">
+      <metrics statements="8" coveredstatements="8" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>
+      <file name="Detail.js" path="/Users/ladiadenusi/source/sky/challenge/src/components/Person/Detail.js">
+        <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="50" count="2" type="stmt"/>
+        <line num="70" count="6" type="stmt"/>
+      </file>
+      <file name="Item.js" path="/Users/ladiadenusi/source/sky/challenge/src/components/Person/Item.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="6" type="stmt"/>
+        <line num="5" count="18" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.Search">
+      <metrics statements="30" coveredstatements="30" conditionals="12" coveredconditionals="12" methods="10" coveredmethods="10"/>
+      <file name="SearchForm.js" path="/Users/ladiadenusi/source/sky/challenge/src/components/Search/SearchForm.js">
+        <metrics statements="19" coveredstatements="19" conditionals="4" coveredconditionals="4" methods="6" coveredmethods="6"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="12" count="59" type="stmt"/>
+        <line num="13" count="59" type="stmt"/>
+        <line num="14" count="59" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="18" count="59" type="stmt"/>
+        <line num="19" count="43" type="stmt"/>
+        <line num="20" count="43" type="stmt"/>
+        <line num="22" count="43" type="cond" truecount="2" falsecount="0"/>
+        <line num="23" count="27" type="stmt"/>
+        <line num="25" count="16" type="stmt"/>
+        <line num="28" count="59" type="stmt"/>
+        <line num="29" count="2" type="stmt"/>
+        <line num="32" count="59" type="stmt"/>
+        <line num="33" count="5" type="stmt"/>
+        <line num="36" count="59" type="stmt"/>
+        <line num="54" count="236" type="stmt"/>
+      </file>
+      <file name="SearchPage.js" path="/Users/ladiadenusi/source/sky/challenge/src/components/Search/SearchPage.js">
+        <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="10" type="stmt"/>
+        <line num="9" count="10" type="stmt"/>
+        <line num="10" count="10" type="stmt"/>
+        <line num="11" count="10" type="stmt"/>
+        <line num="13" count="10" type="cond" truecount="2" falsecount="0"/>
+      </file>
+      <file name="SearchResults.js" path="/Users/ladiadenusi/source/sky/challenge/src/components/Search/SearchResults.js">
+        <metrics statements="5" coveredstatements="5" conditionals="6" coveredconditionals="6" methods="3" coveredmethods="3"/>
+        <line num="4" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="6" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="7" count="6" type="stmt"/>
+        <line num="10" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="13" count="29" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.TV">
+      <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+      <file name="Detail.js" path="/Users/ladiadenusi/source/sky/challenge/src/components/TV/Detail.js">
+        <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="48" count="3" type="stmt"/>
+      </file>
+      <file name="Item.js" path="/Users/ladiadenusi/source/sky/challenge/src/components/TV/Item.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="5" count="13" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.hooks">
+      <metrics statements="13" coveredstatements="13" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>
+      <file name="useFetch.js" path="/Users/ladiadenusi/source/sky/challenge/src/hooks/useFetch.js">
+        <metrics statements="13" coveredstatements="13" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="4" count="22" type="stmt"/>
+        <line num="8" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="9" count="37" type="stmt"/>
+        <line num="10" count="37" type="stmt"/>
+        <line num="12" count="22" type="stmt"/>
+        <line num="13" count="22" type="stmt"/>
+        <line num="16" count="22" type="stmt"/>
+        <line num="17" count="13" type="stmt"/>
+        <line num="23" count="37" type="stmt"/>
+        <line num="24" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="25" count="4" type="stmt"/>
+        <line num="29" count="37" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.utils">
+      <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="time-formatter.js" path="/Users/ladiadenusi/source/sky/challenge/src/utils/time-formatter.js">
+        <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="6" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

@@ -17,9 +17,3 @@
   display: inline-block;
   margin-left: 5px;
 }
-.text {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  width: calc(100% - 100px);
-}
