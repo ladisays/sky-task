@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Prerequisites
+Copy the contents of the file named `env.example` into a new file `.env` in the root directory.
+Then append the appropriate key to the environment variable in the new file.
+
 ## Available Scripts
 
 In the project directory, you can run:
